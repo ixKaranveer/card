@@ -1,0 +1,30 @@
+#container {
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 10px;
+    width: 340px;
+    height: 605px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+h3 {
+    text-align: center;
+}
+div {
+    margin-bottom: 14px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    
+  }
+  
+  li {
+    margin-bottom: 4px;
+  }

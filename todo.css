@@ -1,0 +1,108 @@
+body {
+    background: url(https://t3.ftcdn.net/jpg/05/13/59/72/360_F_513597277_YYqrogAmgRR9ohwTUnOM784zS9eYUcSk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 322px;
+    width: 496px;
+
+}
+
+.container h1 {
+    color: sienna;
+    text-align: center;
+    text-shadow: 3px 3px 3px #100e0e;
+}
+
+.form-group input {
+    justify-content: center;
+    display: block;
+    width: 242px;
+    padding: 5px;
+    margin: 3px auto;
+    border: 4px solid aqua;
+    border-radius: 23px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn {
+    background-color: aqua;
+    border-radius: 14px;
+    height: 27px;
+}
+.todo{
+    margin-left: 110px;
+}
+/* .btn i{
+    margin:3px;
+    padding: 3px auto;
+} */
+.form-group1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 246px;
+}
+.form-group1 p{
+    width: 15rem;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid aqua;
+    margin: 10px;
+}
+.form-group1 span{
+    cursor: pointer;
+    display: none;
+}
+
+.form-group1:hover span{
+    display: block;
+  }
+  .fa {
+    height: 10px;
+    position: absolute;
+    margin-left: 208px;
+    margin-top: -17px;
+}
+
+
+
+
+
+function filterArtists(searchTerm) {
+    const filteredArtists = artistsData.filter(artist =>
+      artist.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    generateArtistCards(filteredArtists);
+  }
+  
+  
+  
+  document.getElementById("searchInput").addEventListener("input", function (event) {
+    filterArtists(event.target.value);
+  });
+  
+  

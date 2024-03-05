@@ -1,0 +1,38 @@
+body {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  background-color: #ebdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  text-align: center;
+  background-color: #0da9a4;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px #0da9a4;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 3px;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+select {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+}

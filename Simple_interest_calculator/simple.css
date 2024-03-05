@@ -1,0 +1,86 @@
+#container {
+    background: rgb(255 255 255 / 87%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 58vh;
+    width: 74vh;
+    border: 2px solid black;
+    
+}
+
+#container h1 {
+    color: rgb(26, 28, 22);
+    text-align: center;
+    font-size: 2em;
+}
+body {
+    
+    background-image: url(https://egqusrjtrmt.exactdn.com/wp-content/uploads/2023/08/piggy-bank.webp?strip=all&lossy=1&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#container form input {
+
+    width: 245px;
+    padding: 4px;
+    margin: 8px auto;
+    border-radius: 10px;
+}
+#container form label {
+    font-weight:"bold";
+    font-size: 1.5em;
+}
+#result1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+}
+#result {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#btn_calculate:hover {
+    border-color: rgb(208, 7, 7);
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+#btn_calculate {
+    font-weight: bold;
+}
+
+#error1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+}
+#error2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+}
+#error3 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+}
