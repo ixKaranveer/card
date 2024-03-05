@@ -88,21 +88,4 @@ body {
     margin-top: -17px;
 }
 
-
-
-
-
-function filterArtists(searchTerm) {
-    const filteredArtists = artistsData.filter(artist =>
-      artist.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    generateArtistCards(filteredArtists);
-  }
-  
-  
-  
-  document.getElementById("searchInput").addEventListener("input", function (event) {
-    filterArtists(event.target.value);
-  });
-  
   
